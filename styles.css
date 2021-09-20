@@ -1,0 +1,239 @@
+        body {
+            font-family: Garamond;
+            font-size: 15px;
+            font-weight: 300;
+            margin: 30px;
+            background: #F6F8FF;
+        }
+
+        .version {
+            color: #BBC1E1;
+            font-size: 11px;
+            user-select: none;
+        }
+
+        :focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+
+        .container {
+            width: 670px;
+            background: #fff;
+            margin: 0 auto;
+            overflow: hidden;
+            box-shadow: 5px 5px 30px #aaa;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .startbar {
+            width: 300px;
+            display: flex;
+            margin: 10px 0 0 0;
+            justify-content: space-around;
+            background: #FFFFFF;
+            border: 1px solid #ddd;
+            border-radius: 1px;
+            padding: 10px;
+        }
+
+        .inputTime {
+            color: #BBC1E1;
+            border: none;
+            border-bottom: 1px solid #BBC1E1;
+        }
+
+        .inputTime:focus {
+            color: #28305C;
+        }
+
+        .timebar {
+            width: 300px;
+            display: flex;
+            margin: 10px 0 0 0;
+            justify-content: space-around;
+            background: #FFFFFF;
+            border: 1px solid #ddd;
+            border-radius: 1px;
+            padding: 10px;
+            user-select: none;
+        }
+
+        .adminbar {
+            width: 300px;
+            display: flex;
+            margin: 10px 0 0 0;
+            justify-content: space-around;
+            background: #FFFFFF;
+            border: 1px solid #ddd;
+            border-radius: 1px;
+            padding: 10px;
+        }
+
+        .switchbar {
+            width: 300px;
+            display: flex;
+            margin: 10px 0 0 0;
+            justify-content: space-around;
+            background: #FFFFFF;
+            border: 1px solid #ddd;
+            border-radius: 1px;
+            padding: 10px;
+        }
+
+        .checkbox_div {
+            padding: 0 6px 0 0;
+            /*  vnutrinie otstup */
+            /*  sverhu 0    */
+            /*  sprava 6px  */
+            /*  snizu 0     */
+            /*  sleva  0    */
+            user-select: none;
+        }
+
+        label.switch {
+            display: inline-block;
+            width: 25px;
+            height: 15px;
+            background-color: white;
+            border: 1px solid #BBC1E1;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s ease-out;
+            user-select: none;
+        }
+
+        input[type="checkbox"] {
+            -webkit-appearance: none;
+            width: 10px;
+            height: 10px;
+            background-color: #BBC1E1;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease-out;
+        }
+
+        input[type="checkbox"]:checked {
+            -webkit-transform: translateX(7px);
+            background-color: #28305C;
+        }
+
+        input[type="checkbox"]:disabled {
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        .logbar {
+            font-size: 10px;
+            width: 300px;
+            display: flex;
+            margin: 10px 0 0 0;
+            background: #FFFFFF;
+            border: 1px solid #ddd;
+            border-radius: 1px;
+            padding: 10px;
+            user-select: none;
+        }
+
+        .tablica {
+            font-family: Garamond;
+            height: 260px;
+            max-width: 700px;
+            overflow-x: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            background: #FFFFFF;
+            border: 1px solid #ddd;
+            border-radius: 1px;
+        }
+
+        table {
+            width: 100%;
+            background: #FFFFFF;
+            border: 1px solid #ddd;
+            table-layout: auto;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #28305C;
+            text-align: left;
+            color: #fff;
+            padding: 12px;
+            font-size: 15px;
+            font-weight: 100;
+        }
+
+        tr {
+            font-size: 12px;
+            border: 1px solid #ddd;
+            height: 20px;
+            text-align: left;
+        }
+
+        tr:hover {
+            background-color: #28305C;
+            color: #FFFFFF;
+        }
+
+        td {
+            padding: 0 25px;
+            vertical-align: middle;
+        }
+
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px #BBC1E1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            box-shadow: inset 0 0 6px #28305C;
+        }
+
+        .textcols {
+            column-width: 48%;
+            column-count: 3;
+            font-size: 10px;
+            background: #FFFFFF;
+            border: 1px solid #ddd;
+            border-radius: 1px;
+            overflow: hidden;
+            padding: 12px;
+            width: 700px;
+            height: 200px;
+        }
+
+        button {
+            border: none;
+            border-radius: 2px;
+            padding: 10px 15px;
+            margin: 2px;
+            font-size: 15px;
+            cursor: pointer;
+            color: #BBC1E1;
+            background-color: #28305C;
+            background-position: center;
+            transition: background 0.8s;
+            touch-action: none;
+            -webkit-touch-callout: none;
+            user-drag: none;
+            user-select: none;
+        }
+
+        button:hover {
+            background: #22294E radial-gradient(circle, transparent 1%, #22294E 1%) center/15000%;
+            box-shadow: 0 0 7px #999;
+            color: white;
+        }
+
+        button:active {
+            background-color: #171C35;
+            background-size: 100%;
+            transition: background 0s;
+            box-shadow: 0 0 2px #999;
+        }
