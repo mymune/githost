@@ -1,1 +1,1 @@
-# githost
+https://mymune.github.io/githost/
